@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -183,4 +185,65 @@ button:hover{
     text-decoration: none;
     border: 1px solid #836FFF;
 
+}
+
+@media screen and (max-width: 768px) {
+
+    .background {
+        width: 100%;
+
+    }
+    .cabecalho-link {
+        width: 100%;
+        flex-direction: column;
+        padding: 100px;
+        
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .container-text {
+        padding: 10px;
+    
+    }
+
+    .text h1 {
+        text-align: center;
+        padding-left: 20px;
+        text-align: center;
+    }
+
+    .text h3 {
+        text-align: center;
+        padding-left: 20px;
+        text-align: center;
+    }
+    .text p {
+        padding-left: 50px;
+        text-align: center;
+    }
+
+    button {
+        justify-content: center;
+        text-align: center;
+        margin-left: 40px;
+       
+
+    }
+
+    .redes-sociais {
+        justify-content: center;
+        align-items: center;
+        padding-left: 140px;
+    }
+
+    .btn {
+        justify-content: center;
+        margin: 20px;
+        margin-left: 140px;
+        
+    }
+    
 }
