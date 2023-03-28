@@ -253,8 +253,9 @@ button:hover{
     
 }
 
-header {
-    background: black;
+.menu {
+    background-color:#836FFF;
+  
 }
 
 header h3 { 
