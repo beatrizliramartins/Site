@@ -136,6 +136,10 @@ button:hover{
     
 }
 
+.back-trabalhos {
+    background: black;
+}
+
 .foto {
     display: flex;
     justify-content: center;
@@ -253,16 +257,15 @@ button:hover{
     
 }
 
-.menu {
-    background-color:#836FFF;
-  
-}
+
 
 header h3 { 
     justify-content: start;
     color: #fff;
     
 }
+
+
 
 
 .card-grid {
