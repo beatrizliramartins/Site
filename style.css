@@ -332,12 +332,13 @@ header h3 {
           justify-content: center;
           align-items: center;
           padding-left: 110px;
+          margin-top: 3%;
       }
 
       .btn {
           justify-content: center;
           margin: 20px;
-          margin-left: 125px;
+          margin-left: 112px;
 
       }
 
