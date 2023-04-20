@@ -16,6 +16,7 @@ body {
     
 }
 
+
 .background {
     background: linear-gradient(rgba(0,0,0,0.5)), rgba(0, 0, 0, 0.5);
     background-image: url(background.jpg);
@@ -66,6 +67,8 @@ header {
     font-size: 13px;
     cursor: pointer;
 }
+
+
 
 button{
     color: #836FFF;
@@ -165,6 +168,19 @@ button:hover{
     margin-left: 20px;
 }
 
+.back-icons {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    color: #836FFF;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .pdf {
     padding: 0;
     margin: 0;
@@ -321,7 +337,7 @@ header h3 {
       .btn {
           justify-content: center;
           margin: 20px;
-          margin-left: 110px;
+          margin-left: 125px;
 
       }
 
